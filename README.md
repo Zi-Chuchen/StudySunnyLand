@@ -4,7 +4,9 @@
 
 ```bash
 # 1. 克隆项目
-git clone SunnyLand
+git clone https://github.com/Zi-Chuchen/StudySunnyLand
+# (国内可使用代理)
+# git clone https://gh-proxy.com/https://github.com/Zi-Chuchen/StudySunnyLand
 cd SunnyLand
 
 # 2. 创建构建目录
