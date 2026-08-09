@@ -1,11 +1,13 @@
-# SunnyLand - CMake 构建说明
+# StudySunnyLand - CMake 构建说明
 
 ## 快速开始
 
 ```bash
 # 1. 克隆项目
-git clone SunnyLand
-cd SunnyLand
+git clone https://github.com/Zi-Chuchen/StudySunnyLand
+# (国内可使用代理)
+# git clone https://gh-proxy.com/https://github.com/Zi-Chuchen/StudySunnyLand
+cd StudySunnyLand
 
 # 2. 创建构建目录
 mkdir build && cd build
