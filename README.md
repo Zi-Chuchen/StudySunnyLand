@@ -1,4 +1,4 @@
-# SunnyLand - CMake 构建说明
+# StudySunnyLand - CMake 构建说明
 
 ## 快速开始
 
@@ -7,7 +7,7 @@
 git clone https://github.com/Zi-Chuchen/StudySunnyLand
 # (国内可使用代理)
 # git clone https://gh-proxy.com/https://github.com/Zi-Chuchen/StudySunnyLand
-cd SunnyLand
+cd StudySunnyLand
 
 # 2. 创建构建目录
 mkdir build && cd build
