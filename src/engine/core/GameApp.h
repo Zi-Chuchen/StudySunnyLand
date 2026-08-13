@@ -4,7 +4,10 @@
 struct SDL_Window;
 struct SDL_Renderer;
 
-
+namespace engine::resource      
+{
+    class ResourceManager; // 资源管理器前置声明
+}
 
 namespace engine::core
 {
@@ -22,8 +25,9 @@ namespace engine::core
         bool IsRunning_ = false;
 
         std::unique_ptr<Time> Time_;
-        // [[nodiscard]] bool TimeInitalize();
+        std::unique_ptr<resource::ResourceManager> ResourceManager_;
 
+        void TestResourceManager();
     public:
         GameApp();
         ~GameApp();
@@ -41,6 +45,9 @@ namespace engine::core
 
     private:
         [[nodiscard]] bool Initalize();
+        [[nodiscard]] bool InitalizeSDL();
+        [[nodiscard]] bool InitializeTime();
+        [[nodiscard]] bool InitializeResourceManager();
         void HandleInput();
         void Update(float);
         void Render();

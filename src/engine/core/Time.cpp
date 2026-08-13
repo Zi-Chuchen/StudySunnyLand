@@ -8,7 +8,7 @@ namespace engine::core
     {
         // 初始化
         LastTime_ = NowTime_ = SDL_GetTicksNS();
-        spdlog::info("Time initialization, the first time:{}", LastTime_);
+        spdlog::info("Time initialization, the first time:{}.", LastTime_);
     }
     Time::~Time() = default;
 
